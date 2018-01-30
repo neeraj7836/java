@@ -20,6 +20,7 @@ public class Greeter {
 		};
 		
 		greeter.greet(() -> System.out.print("Hello world!"));
+		greeter.greet(() -> System.out.print("My name is Neeraj"));
 		greeter.greet(innerClassGreeting);
 		
 		
